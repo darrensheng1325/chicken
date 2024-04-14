@@ -181,7 +181,7 @@ Thread(target=start_chickens_loop,daemon=True).start()
 try:
     screen.mainloop()
 except Exception:
-    print('GAME CRASHEDred[0m')
+    print('GAME 1 CRASHEDred[0m')
 game_over = True
 
 score_file.close()
